@@ -1,0 +1,22 @@
+
+public class TestingClass {
+	
+	public static void main(String[] args){
+		ListNode myHead1= new ListNode(21);
+		ListNode nodeOne1= new ListNode(9);
+		ListNode nodeTwo1= new ListNode(7);
+		ListNode nodeThree1= new ListNode(30);
+		ListNode nodeFour1= new ListNode(31);
+		
+		ListNode myHead2= new ListNode(17);
+		ListNode nodeOne2= new ListNode(1);
+		ListNode nodeTwo2= new ListNode(3);
+		ListNode nodeThree2= new ListNode(12);
+		ListNode nodeFour2= new ListNode(40);
+
+
+
+		
+	}
+
+}

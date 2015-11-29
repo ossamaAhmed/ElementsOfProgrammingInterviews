@@ -1,0 +1,15 @@
+
+public class TestForCyclity {
+	public static ListNode TestForCyclityMethod(ListNode node){
+		ListNode firstIterator= node;
+		ListNode secondIterator= node;
+		while (firstIterator.next!=null){
+			firstIterator= firstIterator.next;
+			secondIterator= secondIterator.next.next;
+			if(firstIterator==secondIterator){
+				return firstIterator;
+			}
+		}
+		return null;
+	}
+}

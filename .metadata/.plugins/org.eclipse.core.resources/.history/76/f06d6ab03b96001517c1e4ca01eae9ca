@@ -1,0 +1,7 @@
+
+public class TestForCyclity {
+	public static ListNode TestForCyclityMethod(ListNode node){
+		
+		return null;
+	}
+}

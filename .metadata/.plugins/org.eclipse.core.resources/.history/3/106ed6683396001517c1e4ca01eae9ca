@@ -1,0 +1,19 @@
+
+public class ReverseTwoLinkedLists {
+	
+	public static ListNode ReverseLinkedLists(ListNode node){
+		
+		ListNode currentNode= node;
+		currentNode.next=null; //head's one
+		ListNode nextNode= node.next;
+		while(nextNode!=null){
+			ListNode temp= nextNode.next;
+			nextNode.next=currentNode;
+			currentNode= nextNode;
+			nextNode=temp;
+		}
+		
+		return currentNode;
+	}
+
+}
